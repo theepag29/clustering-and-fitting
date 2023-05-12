@@ -224,7 +224,7 @@ sigma = np.sqrt(np.diag(covar))
 print("parameters:", param)
 print("std. dev.", sigma)
 
-# Add a new column to the input dataframe transposed_df that contains the
+# Add a new column to the input dataframe transposed_df that contains
 # values of the fitted logistic function
 df["fit"] = logistic(df["Year"], *param)
 
