@@ -180,7 +180,7 @@ plot_ED_over_time(df2, country_name)
 # the returned dataframes in original_df and transposed_df
 original_df, transposed_df = read_wb_data("data 1.csv")
 
-# Extract the list of country names from the original dataframe original_df
+# Extract the list of country names from the original df original_df
 country = list(original_df['Country Name'])
 
 
